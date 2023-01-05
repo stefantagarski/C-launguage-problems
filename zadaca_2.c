@@ -7,7 +7,7 @@ int main()
     int matrix[100][100];
     int sum1 = 0, sum2 = 0, sum3 = 0, sum4 = 0;
     scanf("%d %d", &n, &m);
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n; i++) 
     {
         for (j = 0; j < m; j++)
         {
@@ -16,7 +16,7 @@ int main()
     }
     scanf("%d %d", &x, &y);
 
-    for (i = 0; i < x; i++)
+    for (i = 0; i < x; i++) // I kvadrant
     {
         for (j = y; j < m; j++)
         {
@@ -24,7 +24,7 @@ int main()
         }
     }
 
-    for (i = 0; i < x; i++)
+    for (i = 0; i < x; i++) // II kvadrant
     {
         for (j = 0; j < y; j++)
         {
@@ -32,7 +32,7 @@ int main()
         }
     }
 
-    for (i = x; i < n; i++)
+    for (i = x; i < n; i++) // III kvadrant 
     {
         for (j = 0; j < y; j++)
         {
@@ -40,7 +40,7 @@ int main()
         }
     }
 
-    for (i = x; i < n; i++)
+    for (i = x; i < n; i++) // IV kvadrant 
     {
         for (j = y; j < m; j++)
         {
